@@ -1,0 +1,5793 @@
+{
+    "status": true,
+    "msg": [],
+    "info": {
+        "inspection_form": {
+            "name": "Inspección de Producto Terminado",
+            "code": "PRODUCT_FINISHED",
+            "id": "37",
+            "code_form": "ASC-F-005",
+            "review": "REV. 7",
+            "date": "27-04-2021",
+            "number_of_inspections": 2,
+            "is_complete": false
+        },
+        "sections": [
+            {
+                "id": 36,
+                "name": "General",
+                "position": 36,
+                "is_ready": false
+            },
+            {
+                "id": 37,
+                "name": "Información del Producto",
+                "position": 37,
+                "is_ready": false
+            },
+            {
+                "id": 38,
+                "name": "Información Adicional de Suministros",
+                "position": 38,
+                "is_ready": false
+            },
+            {
+                "id": 39,
+                "name": "Defectos Envases",
+                "position": 39,
+                "is_ready": false
+            },
+            {
+                "id": 40,
+                "name": "Defectos Líquidos",
+                "position": 40,
+                "is_ready": false
+            },
+            {
+                "id": 41,
+                "name": "Defectos Tapas",
+                "position": 41,
+                "is_ready": false
+            },
+            {
+                "id": 42,
+                "name": "Defectos Etiquetas",
+                "position": 42,
+                "is_ready": false
+            },
+            {
+                "id": 50,
+                "name": "Resumen",
+                "position": 50,
+                "is_ready": false
+            }
+        ],
+        "sub_sections": [
+            {
+                "id": 25,
+                "name": "Subsección Vacía",
+                "code": "EMPTY",
+                "position": 1,
+                "section_id": 36,
+                "is_repeatable": false
+            },
+            {
+                "id": 26,
+                "name": "Subsección Vacía Repetible",
+                "code": "EMPTY_N",
+                "position": 1,
+                "section_id": 37,
+                "is_repeatable": true
+            },
+            {
+                "id": 27,
+                "name": "Etiquetas",
+                "code": "TAGS",
+                "position": 1,
+                "section_id": 38,
+                "is_repeatable": true
+            },
+            {
+                "id": 28,
+                "name": "Cajetilla Indivual",
+                "code": "SINGLE PACK",
+                "position": 2,
+                "section_id": 38,
+                "is_repeatable": true
+            },
+            {
+                "id": 29,
+                "name": "Críticos",
+                "code": "CRITICAL_DEFECTS",
+                "position": 1,
+                "section_id": 39,
+                "is_repeatable": true
+            },
+            {
+                "id": 30,
+                "name": "Defectos Mayores",
+                "code": "HIGHER_DEFECTS",
+                "position": 2,
+                "section_id": 39,
+                "is_repeatable": true
+            },
+            {
+                "id": 31,
+                "name": "Defectos Menores",
+                "code": "MINOR_DEFECTS",
+                "position": 3,
+                "section_id": 39,
+                "is_repeatable": true
+            },
+            {
+                "id": 26,
+                "name": "Subsección Vacía Repetible",
+                "code": "EMPTY_N",
+                "position": 4,
+                "section_id": 39,
+                "is_repeatable": true
+            },
+            {
+                "id": 29,
+                "name": "Críticos",
+                "code": "CRITICAL_DEFECTS",
+                "position": 1,
+                "section_id": 40,
+                "is_repeatable": true
+            },
+            {
+                "id": 30,
+                "name": "Defectos Mayores",
+                "code": "HIGHER_DEFECTS",
+                "position": 2,
+                "section_id": 40,
+                "is_repeatable": true
+            },
+            {
+                "id": 26,
+                "name": "Subsección Vacía Repetible",
+                "code": "EMPTY_N",
+                "position": 3,
+                "section_id": 40,
+                "is_repeatable": true
+            },
+            {
+                "id": 30,
+                "name": "Defectos Mayores",
+                "code": "HIGHER_DEFECTS",
+                "position": 1,
+                "section_id": 41,
+                "is_repeatable": true
+            },
+            {
+                "id": 30,
+                "name": "Defectos Mayores",
+                "code": "HIGHER_DEFECTS",
+                "position": 1,
+                "section_id": 42,
+                "is_repeatable": true
+            },
+            {
+                "id": 25,
+                "name": "Subsección Vacía",
+                "code": "EMPTY",
+                "position": 1,
+                "section_id": 50,
+                "is_repeatable": false
+            }
+        ],
+        "fields": [
+            {
+                "id": 265,
+                "name": "Fecha",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "2023-01-17",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 149
+            },
+            {
+                "id": 266,
+                "name": "Producto",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "SELECTOR_MODEL",
+                    "options": [
+                        {
+                            "id": 1,
+                            "label": "SIN PRODUCTO"
+                        }
+                    ]
+                },
+                "value": 1,
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 150
+            },
+            {
+                "id": 267,
+                "name": "Presentación",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": " ",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 151
+            },
+            {
+                "id": 268,
+                "name": "Linea",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "LINEA 1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 152
+            },
+            {
+                "id": 269,
+                "name": "Inspector",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "vicente",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 153
+            },
+            {
+                "id": 270,
+                "name": "Material en SAP",
+                "position": 0,
+                "section_id": 36,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "-",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 154
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 155
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 2,
+                "is_ready": true,
+                "category_id": 155
+            },
+            {
+                "id": 272,
+                "name": "Pallet",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "Pallet de prueba",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 156
+            },
+            {
+                "id": 272,
+                "name": "Pallet",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 156
+            },
+            {
+                "id": 273,
+                "name": "Código de Trazabilidad",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 157
+            },
+            {
+                "id": 273,
+                "name": "Código de Trazabilidad",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 157
+            },
+            {
+                "id": 274,
+                "name": "C.de Barra del Producto",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 158
+            },
+            {
+                "id": 274,
+                "name": "C.de Barra del Producto",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 158
+            },
+            {
+                "id": 275,
+                "name": "C. de Barra (cajetilla)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 159
+            },
+            {
+                "id": 275,
+                "name": "C. de Barra (cajetilla)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 159
+            },
+            {
+                "id": 276,
+                "name": "C. de Barra (corrugado)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 160
+            },
+            {
+                "id": 276,
+                "name": "C. de Barra (corrugado)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 160
+            },
+            {
+                "id": 277,
+                "name": "Registro Sanitario",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 161
+            },
+            {
+                "id": 277,
+                "name": "Registro Sanitario",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 161
+            },
+            {
+                "id": 276,
+                "name": "C. de Barra (corrugado)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 162
+            },
+            {
+                "id": 276,
+                "name": "C. de Barra (corrugado)",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 162
+            },
+            {
+                "id": 277,
+                "name": "Registro Sanitario",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 163
+            },
+            {
+                "id": 277,
+                "name": "Registro Sanitario",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 163
+            },
+            {
+                "id": 278,
+                "name": "Impresión en la Caja",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 164
+            },
+            {
+                "id": 278,
+                "name": "Impresión en la Caja",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 164
+            },
+            {
+                "id": 279,
+                "name": "Destino",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 165
+            },
+            {
+                "id": 279,
+                "name": "Destino",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 165
+            },
+            {
+                "id": 280,
+                "name": "Leyenda del destino",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "OK",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 166
+            },
+            {
+                "id": 280,
+                "name": "Leyenda del destino",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "N/A",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 166
+            },
+            {
+                "id": 281,
+                "name": "Apariencia del Producto",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 167
+            },
+            {
+                "id": 281,
+                "name": "Apariencia del Producto",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 167
+            },
+            {
+                "id": 282,
+                "name": "Persona Informada",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 168
+            },
+            {
+                "id": 282,
+                "name": "Persona Informada",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 168
+            },
+            {
+                "id": 283,
+                "name": "Desgarre de Papel",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 169
+            },
+            {
+                "id": 283,
+                "name": "Desgarre de Papel",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 169
+            },
+            {
+                "id": 284,
+                "name": "Estado de Inspección",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 170
+            },
+            {
+                "id": 284,
+                "name": "Estado de Inspección",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 170
+            },
+            {
+                "id": 285,
+                "name": "Motivo del Estado de Inspección",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 171
+            },
+            {
+                "id": 285,
+                "name": "Motivo del Estado de Inspección",
+                "position": 0,
+                "section_id": 37,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 171
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 172
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 2,
+                "is_ready": true,
+                "category_id": 172
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 173
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 174
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 175
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 176
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 177
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 1,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 288,
+                "name": "Forma de Pegado",
+                "position": 2,
+                "section_id": 38,
+                "sub_section_id": 27,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 178
+            },
+            {
+                "id": 289,
+                "name": "Fecha de Producción",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 179
+            },
+            {
+                "id": 289,
+                "name": "Fecha de Producción",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 179
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 180
+            },
+            {
+                "id": 271,
+                "name": "Hora",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "TIME",
+                    "options": {}
+                },
+                "value": "18:20",
+                "inspection": 2,
+                "is_ready": true,
+                "category_id": 180
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 181
+            },
+            {
+                "id": 286,
+                "name": "Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 181
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 182
+            },
+            {
+                "id": 287,
+                "name": "Fecha de Producción Proveedor",
+                "position": 0,
+                "section_id": 38,
+                "sub_section_id": 28,
+                "type": {
+                    "code": "DATE",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 182
+            },
+            {
+                "id": 290,
+                "name": "Columpio (A)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "4",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 183
+            },
+            {
+                "id": 290,
+                "name": "Columpio (A)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 2,
+                "is_ready": true,
+                "category_id": 183
+            },
+            {
+                "id": 291,
+                "name": "Rajaduras (B)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 184
+            },
+            {
+                "id": 291,
+                "name": "Rajaduras (B)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 184
+            },
+            {
+                "id": 292,
+                "name": "Aguja (C)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 185
+            },
+            {
+                "id": 292,
+                "name": "Aguja (C)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 185
+            },
+            {
+                "id": 293,
+                "name": "Aristas Cortante (D)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 186
+            },
+            {
+                "id": 293,
+                "name": "Aristas Cortante (D)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 186
+            },
+            {
+                "id": 294,
+                "name": "Vidrio Suelto (E)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 187
+            },
+            {
+                "id": 294,
+                "name": "Vidrio Suelto (E)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 187
+            },
+            {
+                "id": 295,
+                "name": "Vidrio Adherido (F)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 188
+            },
+            {
+                "id": 295,
+                "name": "Vidrio Adherido (F)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 188
+            },
+            {
+                "id": 296,
+                "name": "Puente Roto (G)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 189
+            },
+            {
+                "id": 296,
+                "name": "Puente Roto (G)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 189
+            },
+            {
+                "id": 297,
+                "name": "Envase Rayado (H)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 190
+            },
+            {
+                "id": 297,
+                "name": "Envase Rayado (H)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 190
+            },
+            {
+                "id": 298,
+                "name": "Falta de Codificación (I)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 191
+            },
+            {
+                "id": 298,
+                "name": "Falta de Codificación (I)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 191
+            },
+            {
+                "id": 299,
+                "name": "Envase Manchado (J)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "2",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 192
+            },
+            {
+                "id": 299,
+                "name": "Envase Manchado (J)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 192
+            },
+            {
+                "id": 300,
+                "name": "Disparejo (K)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 31,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 193
+            },
+            {
+                "id": 300,
+                "name": "Disparejo (K)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 31,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 193
+            },
+            {
+                "id": 301,
+                "name": "Fracturas que no Afectan La Resistencia (L)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 31,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 194
+            },
+            {
+                "id": 301,
+                "name": "Fracturas que no Afectan La Resistencia (L)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 31,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 194
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 195
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 0,
+                "section_id": 39,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 195
+            },
+            {
+                "id": 303,
+                "name": "Color no Característico (M)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 196
+            },
+            {
+                "id": 303,
+                "name": "Color no Característico (M)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 196
+            },
+            {
+                "id": 304,
+                "name": "Materia Extraña (N)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 197
+            },
+            {
+                "id": 304,
+                "name": "Materia Extraña (N)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 29,
+                "type": {
+                    "code": "DEFECT_CRITICAL",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 197
+            },
+            {
+                "id": 305,
+                "name": "Nivel Alto (O)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 198
+            },
+            {
+                "id": 305,
+                "name": "Nivel Alto (O)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 198
+            },
+            {
+                "id": 306,
+                "name": "Nivel Bajo (P)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 199
+            },
+            {
+                "id": 306,
+                "name": "Nivel Bajo (P)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 199
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 200
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 0,
+                "section_id": 40,
+                "sub_section_id": 26,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 200
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 201
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 202
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 307,
+                "name": "Liqueo en Tapas (Q)",
+                "position": 0,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 308,
+                "name": "Fecha Incorrecta (R)",
+                "position": 1,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 309,
+                "name": "Tapa Rota (S)",
+                "position": 2,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 310,
+                "name": "Diferencia Excesiva en el Tono de Color (T)",
+                "position": 3,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 311,
+                "name": "Puente Roto (U)",
+                "position": 4,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 312,
+                "name": "Código Incorrecto (V)",
+                "position": 5,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 313,
+                "name": "Tapa Floja (W)",
+                "position": 6,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 7,
+                "section_id": 41,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 203
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "3",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "1",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 204
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 204
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 205
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 205
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 206
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 206
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 207
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 207
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "0",
+                "inspection": 1,
+                "is_ready": true,
+                "category_id": 208
+            },
+            {
+                "id": 314,
+                "name": "Etiqueta Torcida (X)",
+                "position": 0,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 315,
+                "name": "Etiqueta Equivocada (Y)",
+                "position": 1,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 316,
+                "name": "Falta de Etiqueta (AA)",
+                "position": 2,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 317,
+                "name": "Leyenda equivocada (AB)",
+                "position": 3,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 318,
+                "name": "Etiqueta Arrugada(AC)",
+                "position": 4,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 319,
+                "name": "Defecto de Impresión (AH)",
+                "position": 5,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 320,
+                "name": "Color Incorrecto (AI)",
+                "position": 6,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 321,
+                "name": "Invertidas (AJ)",
+                "position": 7,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 322,
+                "name": "Diferencia Excesiva en el Tono de Color (AK)",
+                "position": 8,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MAYOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 323,
+                "name": "Etiqueta Rota (AD)",
+                "position": 9,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 324,
+                "name": "Exceso de Pegamento (AE)",
+                "position": 10,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 325,
+                "name": "Falta de Pegamento (AF)",
+                "position": 11,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 326,
+                "name": "Fuera de Centro (AG)",
+                "position": 12,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 327,
+                "name": "Sucia (AL)",
+                "position": 13,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 328,
+                "name": "Etiqueta Pelada (AM)",
+                "position": 14,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 329,
+                "name": "Etiqueta Doblada (AN)",
+                "position": 15,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "DEFECT_MINOR",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 302,
+                "name": "Otros (Z)",
+                "position": 16,
+                "section_id": 42,
+                "sub_section_id": 30,
+                "type": {
+                    "code": "TEXT_SWITCH",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 2,
+                "is_ready": false,
+                "category_id": 208
+            },
+            {
+                "id": 330,
+                "name": "Observaciones",
+                "position": 0,
+                "section_id": 50,
+                "sub_section_id": 25,
+                "type": {
+                    "code": "LARGE TEXT",
+                    "options": {}
+                },
+                "value": "",
+                "inspection": 1,
+                "is_ready": false,
+                "category_id": 209
+            }
+        ],
+        "categories": [
+            {
+                "id": 150,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 151,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 152,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 153,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 154,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 149,
+                "label": "",
+                "section_id": 36,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 165,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 171,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 170,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 169,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 168,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 167,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 166,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 164,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 162,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 155,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 161,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 160,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 159,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 158,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 157,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 156,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 163,
+                "label": "",
+                "section_id": 37,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 172,
+                "label": "",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 178,
+                "label": "Strip",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 177,
+                "label": "Ovalo",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 176,
+                "label": "Hombro",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 175,
+                "label": "Cuello",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 174,
+                "label": "Recetario",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 173,
+                "label": "Frente",
+                "section_id": 38,
+                "sub_section_id": 27,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 179,
+                "label": "",
+                "section_id": 38,
+                "sub_section_id": 28,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 182,
+                "label": "",
+                "section_id": 38,
+                "sub_section_id": 28,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 180,
+                "label": "",
+                "section_id": 38,
+                "sub_section_id": 28,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 181,
+                "label": "",
+                "section_id": 38,
+                "sub_section_id": 28,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 195,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 185,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 186,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 187,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 188,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 189,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 183,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 184,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 190,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 30,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 191,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 30,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 192,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 30,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 193,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 31,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 194,
+                "label": "",
+                "section_id": 39,
+                "sub_section_id": 31,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 200,
+                "label": "",
+                "section_id": 40,
+                "sub_section_id": 26,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 197,
+                "label": "",
+                "section_id": 40,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 196,
+                "label": "",
+                "section_id": 40,
+                "sub_section_id": 29,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 198,
+                "label": "",
+                "section_id": 40,
+                "sub_section_id": 30,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 199,
+                "label": "",
+                "section_id": 40,
+                "sub_section_id": 30,
+                "summary": false,
+                "label_summary": ""
+            },
+            {
+                "id": 201,
+                "label": "Tapas",
+                "section_id": 41,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 202,
+                "label": "Cápsula",
+                "section_id": 41,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 203,
+                "label": "Corcho",
+                "section_id": 41,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 204,
+                "label": "Etiqueta Frente",
+                "section_id": 42,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 205,
+                "label": "Etiqueta Recetario",
+                "section_id": 42,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 206,
+                "label": "Etiqueta Strip",
+                "section_id": 42,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 207,
+                "label": "Etiqueta Hombro",
+                "section_id": 42,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 208,
+                "label": "Etiqueta Cuello",
+                "section_id": 42,
+                "sub_section_id": 30,
+                "summary": true,
+                "label_summary": ""
+            },
+            {
+                "id": 209,
+                "label": "",
+                "section_id": 50,
+                "sub_section_id": 25,
+                "summary": false,
+                "label_summary": ""
+            }
+        ]
+    },
+    "errors": []
+}
