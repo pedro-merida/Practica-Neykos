@@ -22,6 +22,7 @@ import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import { mainListItems, secondaryListItems } from './listItems';
 import Lineas from './Lineas';
 import Button from '@mui/material/Button'
+import Tooltip from '@mui/material/Tooltip';
 
 function Copyright(props) {
   return (
@@ -168,12 +169,16 @@ function CalidadContent() {
                 <Button style={{textTransform: 'none'}} size="medium" variant="contained" href='/formularios'>Formularios</Button>
                 </Grid>
                 <Grid item>
-                <IconButton color="primary">
-                  <FormatListBulletedIcon />
-                </IconButton>
-                <IconButton color="primary">
-                  <ViewModuleIcon />
-                </IconButton>
+                <Tooltip title="Formato lista" arrow>
+                  <IconButton color="primary">
+                    <FormatListBulletedIcon />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title="Formato paneles" arrow>
+                  <IconButton color="primary">
+                    <ViewModuleIcon />
+                  </IconButton>
+                </Tooltip>
                 </Grid>
               </Grid>
               {/* Recent Orders */}
