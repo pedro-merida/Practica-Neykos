@@ -1,0 +1,29 @@
+#grid-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: left;
+}
+
+#grid-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+}
+
+table{
+    width: 100%;
+    align-items: center;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+#container-div{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10%;
+    margin-top: 50%;
+}
+
