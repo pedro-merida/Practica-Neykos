@@ -7,6 +7,14 @@ import { TabContext, TabList, TabPanel } from '@mui/lab';
 import { useState } from 'react';
 import GeneralInfo from './finished_product/GeneralInfo';
 import ProductInformationTab from './finished_product/ProductInformationTab';
+import AdditionalSupplyInfoTab from './finished_product/AdditionalSupplyInfoTab';
+import ContainerDefects from './finished_product/ContainerDefects';
+import LiquidDefects from './finished_product/LiquidDefects';
+import CapDefects from './finished_product/CapDefects';
+import LabelDefects from './finished_product/LabelDefects';
+import InspectionSummary from './finished_product/InspectionSummary';
+import FormSummary from './finished_product/FormSummary';
+import Signature from './finished_product/Signatures';
 
 const steps = [
     "GENERAL",
@@ -16,7 +24,8 @@ const steps = [
     "DEFECTOS LÍQUIDOS",
     "DEFECTOS TAPAS",
     "DEFECTOS ETIQUETAS",
-    "RESUMEN",
+    "RESUMEN INSPECCIÓN",
+    "RESUMEN FORMULARIO",
     "FIRMAS",
 ];
 
@@ -39,6 +48,41 @@ function FinishedProduct(){
     const [tabsProdInfoContent, setTabsProdInfoContent] = useState([
         <TabPanel value={"1"}>
             <ProductInformationTab time={time} date={current_date}/>
+        </TabPanel>
+    ]);
+    const [tabsAdditSuppInfoContent, setTabsAdditSuppInfoContent] = useState([
+        <TabPanel value={"1"}>
+            <AdditionalSupplyInfoTab time={time} date={current_date}/>
+        </TabPanel>
+    ]);
+    const [tabsContainerDefectsContent, setTabsContainerDefectsContent] = useState([
+        <TabPanel value={"1"}>
+            <ContainerDefects/>
+        </TabPanel>
+    ]);
+    const [tabsLiquidDefectsContent, setTabsLiquidDefectsContent] = useState([
+        <TabPanel value={"1"}>
+            <LiquidDefects/>
+        </TabPanel>
+    ]);
+    const [tabsCapDefectsContent, setTabsCapDefectsContent] = useState([
+        <TabPanel value={"1"}>
+            <CapDefects/>
+        </TabPanel>
+    ]);
+    const [tabsLabelDefectsContent, setTabsLabelDefectsContent] = useState([
+        <TabPanel value={"1"}>
+            <LabelDefects/>
+        </TabPanel>
+    ]);
+    const [tabsInspectionSummaryContent, setTabsInspectionSummaryContent] = useState([
+        <TabPanel value={"1"}>
+            <InspectionSummary/>
+        </TabPanel>
+    ]);
+    const [tabsSignatureContent, setTabsSignatureContent] = useState([
+        <TabPanel value={"1"}>
+            <Signature/>
         </TabPanel>
     ]);
 
@@ -104,6 +148,48 @@ function FinishedProduct(){
                 ...tabsProdInfoContent,
                 <TabPanel value={(totalTabs + 1).toString()}>
                     <ProductInformationTab time={time} date={current_date}/>
+                </TabPanel>
+            ]);
+            setTabsAdditSuppInfoContent([
+                ...tabsAdditSuppInfoContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <AdditionalSupplyInfoTab time={time} date={current_date}/>
+                </TabPanel>
+            ]);
+            setTabsContainerDefectsContent([
+                ...tabsContainerDefectsContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <ContainerDefects/>
+                </TabPanel>
+            ]);
+            setTabsLiquidDefectsContent([
+                ...tabsLiquidDefectsContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <LiquidDefects/>
+                </TabPanel>
+            ]);
+            setTabsCapDefectsContent([
+                ...tabsCapDefectsContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <CapDefects/>
+                </TabPanel>
+            ]);
+            setTabsLabelDefectsContent([
+                ...tabsLabelDefectsContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <LabelDefects/>
+                </TabPanel>
+            ]);
+            setTabsInspectionSummaryContent([
+                ...tabsInspectionSummaryContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <InspectionSummary/>
+                </TabPanel>
+            ]);
+            setTabsSignatureContent([
+                ...tabsSignatureContent,
+                <TabPanel value={(totalTabs + 1).toString()}>
+                    <Signature/>
                 </TabPanel>
             ]);
             setValue(totalTabs + 1);
@@ -215,6 +301,7 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[2], 2)}
                         <StepContent>
+                            {tabsAdditSuppInfoContent}
                             {buttonCreate(2)}
                         </StepContent>
                     </Step>
@@ -222,6 +309,7 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[3], 3)}
                         <StepContent>
+                            {tabsContainerDefectsContent}
                             {buttonCreate(3)}
                         </StepContent>
                     </Step>
@@ -229,6 +317,7 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[4], 4)}
                         <StepContent>
+                            {tabsLiquidDefectsContent}
                             {buttonCreate(4)}
                         </StepContent>
                     </Step>
@@ -236,6 +325,7 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[5], 5)}
                         <StepContent>
+                            {tabsCapDefectsContent}
                             {buttonCreate(5)}
                         </StepContent>
                     </Step>
@@ -243,6 +333,7 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[6], 6)}
                         <StepContent>
+                            {tabsLabelDefectsContent}
                             {buttonCreate(6)}
                         </StepContent>
                     </Step>
@@ -250,14 +341,24 @@ function FinishedProduct(){
                     <Step>
                         {stepTitle(steps[7], 7)}
                         <StepContent>
+                            {tabsInspectionSummaryContent}
                             {buttonCreate(7)}
+                        </StepContent>
+                    </Step>
+
+                    <Step>
+                        {stepTitle(steps[8], 8)}
+                        <StepContent>
+                            <FormSummary />
+                            {buttonCreate(8)}
                         </StepContent>
                     </Step>
                     
                     <Step>
-                        {stepTitle(steps[8], 8)}
+                        {stepTitle(steps[9], 9)}
                         <StepContent>
-                            {buttonCreate(8)}
+                            {tabsSignatureContent}
+                            {buttonCreate(9)}
                         </StepContent>
                     </Step>
                 </Stepper>
