@@ -260,118 +260,118 @@ function FinishedProduct(){
 
             {/* INSPECCIONES */}
             <TabContext value={value.toString()}>
-            <Box sx={{ 
-                display: 'grid', 
-                gridTemplateColumns: ['repeat(3, 68% 8% 5%)', 'auto 4% 4%'], 
-                gap: 3,
-                mb: [1, 3]
-                }}>
-                    {renderTabs()}
-                    <Tooltip title="Agregar Inspección">
-                        <IconButton onClick={addInspection}>
-                            <AddCircleRoundedIcon color='success'/>
-                        </IconButton>
-                    </Tooltip>
-                    <Tooltip title="Eliminar Inspección">
-                        <IconButton onClick={deleteInspection}>
-                            <DeleteIcon/>
-                        </IconButton>
-                    </Tooltip>
-            </Box>
-            
-            {/* CONTENIDO PASOS */}
-            <Box>
-                <Stepper activeStep={activeStep} orientation="vertical">
-                    <Step>
-                        {stepTitle(steps[0], 0)}
-                        <StepContent>
-                            <GeneralInfo/>
-                            {buttonCreate(0)}
-                        </StepContent>
-                    </Step>
+                <Box zIndex={4} position={'sticky'} bgcolor={'white'} top={64} sx={{ 
+                    display: 'grid', 
+                    gridTemplateColumns: ['repeat(3, 68% 8% 5%)', 'auto 4% 4%'], 
+                    gap: 3,
+                    mb: [1, 3]
+                    }}>
+                        {renderTabs()}
+                        <Tooltip title="Agregar Inspección">
+                            <IconButton onClick={addInspection}>
+                                <AddCircleRoundedIcon color='success'/>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Eliminar Inspección">
+                            <IconButton onClick={deleteInspection}>
+                                <DeleteIcon/>
+                            </IconButton>
+                        </Tooltip>
+                </Box>
+                
+                {/* CONTENIDO PASOS */}
+                <Box>
+                    <Stepper activeStep={activeStep} orientation="vertical">
+                        <Step>
+                            {stepTitle(steps[0], 0)}
+                            <StepContent>
+                                <GeneralInfo/>
+                                {buttonCreate(0)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[1], 1)}
-                        <StepContent>
-                            {tabsProdInfoContent}
-                            {buttonCreate(1)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[1], 1)}
+                            <StepContent>
+                                {tabsProdInfoContent}
+                                {buttonCreate(1)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[2], 2)}
-                        <StepContent>
-                            {tabsAdditSuppInfoContent}
-                            {buttonCreate(2)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[2], 2)}
+                            <StepContent>
+                                {tabsAdditSuppInfoContent}
+                                {buttonCreate(2)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[3], 3)}
-                        <StepContent>
-                            {tabsContainerDefectsContent}
-                            {buttonCreate(3)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[3], 3)}
+                            <StepContent>
+                                {tabsContainerDefectsContent}
+                                {buttonCreate(3)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[4], 4)}
-                        <StepContent>
-                            {tabsLiquidDefectsContent}
-                            {buttonCreate(4)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[4], 4)}
+                            <StepContent>
+                                {tabsLiquidDefectsContent}
+                                {buttonCreate(4)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[5], 5)}
-                        <StepContent>
-                            {tabsCapDefectsContent}
-                            {buttonCreate(5)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[5], 5)}
+                            <StepContent>
+                                {tabsCapDefectsContent}
+                                {buttonCreate(5)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[6], 6)}
-                        <StepContent>
-                            {tabsLabelDefectsContent}
-                            {buttonCreate(6)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[6], 6)}
+                            <StepContent>
+                                {tabsLabelDefectsContent}
+                                {buttonCreate(6)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[7], 7)}
-                        <StepContent>
-                            {tabsInspectionSummaryContent}
-                            {buttonCreate(7)}
-                        </StepContent>
-                    </Step>
+                        <Step>
+                            {stepTitle(steps[7], 7)}
+                            <StepContent>
+                                {tabsInspectionSummaryContent}
+                                {buttonCreate(7)}
+                            </StepContent>
+                        </Step>
 
-                    <Step>
-                        {stepTitle(steps[8], 8)}
-                        <StepContent>
-                            <FormSummary />
-                            {buttonCreate(8)}
-                        </StepContent>
-                    </Step>
-                    
-                    <Step>
-                        {stepTitle(steps[9], 9)}
-                        <StepContent>
-                            {tabsSignatureContent}
-                            {buttonCreate(9)}
-                        </StepContent>
-                    </Step>
-                </Stepper>
+                        <Step>
+                            {stepTitle(steps[8], 8)}
+                            <StepContent>
+                                <FormSummary />
+                                {buttonCreate(8)}
+                            </StepContent>
+                        </Step>
+                        
+                        <Step>
+                            {stepTitle(steps[9], 9)}
+                            <StepContent>
+                                {tabsSignatureContent}
+                                {buttonCreate(9)}
+                            </StepContent>
+                        </Step>
+                    </Stepper>
 
-                {activeStep === steps.length && (
-                    <Paper square elevation={0} sx={{ p: 3 }}>
-                    <Typography>All steps completed - you&apos;re finished</Typography>
-                    <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
-                        Reset
-                    </Button>
-                    </Paper>
-                )}
-            </Box>
+                    {activeStep === steps.length && (
+                        <Paper square elevation={0} sx={{ p: 3 }}>
+                        <Typography>All steps completed - you&apos;re finished</Typography>
+                        <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
+                            Reset
+                        </Button>
+                        </Paper>
+                    )}
+                </Box>
             </TabContext>
         </Box>
     )

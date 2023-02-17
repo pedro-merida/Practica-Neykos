@@ -7,6 +7,10 @@ import { useState, useEffect, useRef } from 'react';
 import MuiAlert from '@mui/material/Alert';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import Checkbox from '@mui/material/Checkbox';
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
 
 const Alert = React.forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -70,6 +74,16 @@ function FormSummary(){
             <Stack marginY={1} marginX={1}>
               <Typography variant='body1' align='left'>Observaciones</Typography>
               <TextField size='medium' value={data.observaciones} name={"observaciones"} onChange={updateData} inputProps={{sx: {height: "120px"}}}></TextField>
+              <FormControl component="sin_obs_summary">
+                <FormGroup aria-label="position" row>
+                    <FormControlLabel
+                    value="sin_obs_summary"
+                    control={<Checkbox />}
+                    label="Sin observaciones"
+                    labelPlacement="end"
+                    />
+                </FormGroup>
+              </FormControl>
             </Stack>
         </Box>
     )
